@@ -1,0 +1,27 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+BAPC21
+BAPC
+2021
+Baalhuis
+Grigoras
+Jeroen
+Heijstek
+Jang
+Konovalova
+Mylène
+Martodihardjo
+Minnema
+Mooijer
+Vasseur
+Youri
+der
+Zwart
+VU
+ - content/jury.md
+jury.bapc.eu.
+ - content/schedule.md
+jury.bapc.eu.

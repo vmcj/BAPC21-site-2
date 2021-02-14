@@ -1,0 +1,55 @@
+name: Grammar
+# https://pawel.krupa.net.pl/2018/07/automate-your-grammar-checks/
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  textidote:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install textidote
+        run: |
+          wget https://github.com/sylvainhalle/textidote/releases/download/v0.8.1/textidote_0.8.1_all.deb
+          sudo dpkg -i textidote_0.8.1_all.deb
+      # Storage dir
+      - name: temp dir
+        run: mkdir temp
+      - name: new dict
+        run: cat .spelling | grep -v "^#" | grep -v "^ -" | sort | uniq > text.dict
+      # Make HTML interface
+      - name: Create HTML document
+        run: for file in `ls content`; do textidote --dict text.dict -check en --type md --output html content/$file > temp/$file.html|| true; done
+      - uses: actions/upload-artifact@v2
+        with:
+          name: HTMLout
+          path: temp
+       # The actual check
+      - name: Check document
+        run: for file in `ls content`; do textidote --dict text.dict --ignore lt:en:CD_NN,lt:en:EN_QUOTES --check en --type md content/$file; done
+  mdspell:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install mdspell
+        run: npm install mdspell
+      - name: Check with mdspell
+        run: ./node_modules/markdown-spellcheck/bin/mdspell -r -n --en-us content/*.md
+  write-good:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Write-good
+        run: npm install write-good
+      - name: Check with Write-good
+        run: ./node_modules/bin/write-good content/*.md
+  markdown:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check markdown
+        run: docker run -v $(pwd):/app --workdir=/app coala/base coala --ci --files content/*.md --bears=MarkdownBear
+        
