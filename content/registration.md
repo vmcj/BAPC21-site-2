@@ -7,4 +7,6 @@ draft: true
 
 # Registration
 
-Registration will be opened after the preliminaries have taken place. Those are expected to be held in the Summer. Registration for a preliminary is independent of registration for BAPC21 and info on how the register for a team representing your own university/school is mostly registered via your teaching staff or the study association representing either Math or Computer Science.
+The registration will be opened after the preliminaries has finished. The preliminaries are expected to be held in the summer of 2021.
+
+Signing up for a preliminary at your institution is independent of a registration for BAPC21. Info on how to register a team representing your own university/school is often arranged via your teaching staff or the study association representing either the math or computer science department.

@@ -7,11 +7,11 @@ draft: true
 
 # Schedule
 
-The schedule of the day itself is uncertain. The schedule of this year is roughly like this:
+The schedule of the day itself is uncertain. The schedule of this year looks something like this:
 
 - Month 04, discussion with other associations on when the preliminaries can be held (organized by individual universities).
 - Month 06, possibly preliminaries
 - Month 09, Preliminaries
 - Month 10, BAPC21
 
-This planning is subject to change as currently the Benelux still has problems with Corona. 
+This planning is subject to change as the Benelux still faces problems with COVID-19. 
