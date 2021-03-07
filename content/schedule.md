@@ -14,4 +14,4 @@ The schedule of the day itself is uncertain. The schedule of this year is roughl
 - Month 09, Preliminaries
 - Month 10, BAPC21
 
-This planning is subject to change as currently the Benelux still has problems with Corona. 
+This planning is subject to change as currently the Benelux still has problems with COVID-19. 
