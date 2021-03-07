@@ -29,15 +29,15 @@ jobs:
           path: temp
        # The actual check
       - name: Check document
-        run: for file in `ls content`; do textidote --dict text.dict --ignore lt:en:CD_NN,lt:en:EN_QUOTES --check en --type md content/$file; done
+        run: for file in `ls content`; do textidote --dict text.dict --ignore lt:en:CD_NN,lt:en:EN_QUOTES,lt:en:PUNCTUATION_PARAGRAPH_END --check en --type md content/$file; done
   mdspell:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
       - name: Install mdspell
-        run: npm install mdspell
+        run: npm install markdown-spellcheck
       - name: Check with mdspell
-        run: ./node_modules/markdown-spellcheck/bin/mdspell -r -n --en-us content/*.md
+        run: ./node_modules/markdown-spellcheck/bin/mdspell -r -n -a --en-us content/*.md
   write-good:
     runs-on: ubuntu-20.04
     steps:
@@ -45,7 +45,7 @@ jobs:
       - name: Install Write-good
         run: npm install write-good
       - name: Check with Write-good
-        run: ./node_modules/bin/write-good content/*.md
+        run: ./node_modules/.bin/write-good content/*.md --no-passive
   markdown:
     runs-on: ubuntu-20.04
     steps:
