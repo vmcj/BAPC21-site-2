@@ -2,7 +2,6 @@
 title: "On-site Contest"
 date: 2019-04-30T23:41:52+02:00
 weight: 3
-draft: true
 ---
 
 # Contest VU Amsterdam Campus
