@@ -22,3 +22,11 @@ These rules and the chosen format may change depending on the measures for the C
 - Crew: Organization, Jury, Technical staff and Runners.
 - Participant: Member of a participating team that competes in the BAPC.
 - Institution: A university or university of applied sciences in Belgium, Luxembourg, or The Netherlands.
+
+## Special Rules
+
+- A team may be disqualified by the organization or jury for any activity that jeopardizes the contest, such as dislodging extension cords, unauthorized modification, unintended use of contest materials, using forbidden function or library calls, or distracting behavior.
+- When a team is disqualified the coach should be notified directly. The team will be notified by the organization after the contest has ended. Exceptions to this rule are when the team obstructs other teams in participating.
+- The organization has the right to stop the contest, extend the contest time, temporarily block submissions for all teams, or change the scores in exceptional conditions.
+- In situations to which no rule applies, or there is ambiguity about the rules, the organization decides the outcome.
+- If necessary, the organization can make changes and exceptions to these rules.
