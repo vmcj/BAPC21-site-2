@@ -102,7 +102,7 @@ There may be a public livestream of the award ceremony available on the website.
 ### Judgment
 
 - Each run is judged as accepted or rejected by a judge, and the team is notified of the results.
-- For each problem, the jury has the correct solution and test data.
+- For each problem, the jury has a correct solution and test data.
 - A problem is solved after acceptance by the judges. The judges are solely responsible for accepting or rejecting runs.
 - The winner of the pool is decided by (in order):
   - The team with the most solved problems.
