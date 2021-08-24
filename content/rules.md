@@ -23,6 +23,19 @@ These rules and the chosen format may change depending on the measures for the C
 - Participant: Member of a participating team that competes in the BAPC.
 - Institution: A university or university of applied sciences in Belgium, Luxembourg, or The Netherlands.
 
+# Diversity Rules
+
+Each institution is permitted to send two teams by default. An institution can earn additional team slots under the following conditions:
+
+- The institution’s preliminaries consist of at least 30% female participants. In the case where a genuine attempt is made, but the ratio is not achieved, the institution may provide details of their attempt for the BAPC committee to review.
+  - One slot awarded
+- The institution proposes compelling ideas for promoting diversity at the BAPC.
+  - The BAPC organizing committee determines the number of slots on a per-institution basis
+  - The deadline for proposing ideas is one week before the BAPC coach meeting
+  - One slot awarded
+
+Discrimination of any kind will not be tolerated during the contest, and may be grounds for disqualification at the discretion of the Contest Director.
+
 ## Participation
 
 ### Introduction
@@ -32,7 +45,7 @@ These rules and the chosen format may change depending on the measures for the C
 - The organization can decide to change classifications before the start of the contest.
 - Changing the composition of a team is possible after approval by the organization.
 - Changing the composition should be done before the start of the contest.
-- The substitutions should be registered as a reserve. Substitutions can be reserve for all teams.
+- The substitutions should be registered as a reserve. Substitutions can be a reserve for all teams.
 - The organization decides the number of teams allowed for each competing institution.
 - The responsibility for listing which of its teams (and reserves) should be considered for participation at the BAPC lies within their respective institution.
 - The organization has the right to deny the participation of teams before the start of the contest.
