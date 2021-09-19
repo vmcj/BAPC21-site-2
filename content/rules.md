@@ -36,9 +36,9 @@ Each institution is permitted to send two teams by default. An institution can e
 
 Discrimination of any kind will not be tolerated during the contest, and may be grounds for disqualification at the discretion of the Contest Director.
 
-## Participation
+# Participation
 
-### Introduction
+## Introduction
 
 - Participation should be done in teams of 3 persons.
 - Teams are classified as either a student team or a company team.
@@ -50,7 +50,7 @@ Discrimination of any kind will not be tolerated during the contest, and may be 
 - The responsibility for listing which of its teams (and reserves) should be considered for participation at the BAPC lies within their respective institution.
 - The organization has the right to deny the participation of teams before the start of the contest.
 
-### Student teams
+## Student teams
 
 A student team:
 
@@ -60,14 +60,15 @@ A student team:
 - Participates in the student teams pool for the title "Winner of the Benelux Algorithm Programming Contest 2021".
 - Consists of students who are eligible for the North Western European Programming Contest 2021.
 
-### Business teams
+## Business teams
 
 A business team:
 
 - Consists up to 3 persons who are employed by the same company or institution.
 - Participates in the business teams pool for the title "Winner of the Benelux Algorithm Programming Contest 2021".
+- Diversity rules do not apply.
 
-### Photos and videos
+## Photos and videos
 
 There may be a public livestream of the award ceremony available on the website. The recording will be made publicly available afterwards. If you do not want to appear on this livestream, or want to be removed from the footage afterwards, please contact the organization. The organization can decide to deny this request.
 
