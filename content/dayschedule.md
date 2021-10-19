@@ -6,7 +6,7 @@ weight: 1
 
 # Schedule
 
-| Start | End | Event 
+| Start | End   | Event                                                                                                                                                                   | ----- | ----- | -------------------------------------
 | 09:00 | 10:15 | Reception and registration (per team)
 | 10:30 | 11:00 | Welcome and introductory remarks
 | 11:00 | 12:00 | Test session
