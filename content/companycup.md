@@ -11,4 +11,5 @@ weight: 13
 ![Picnic](/img/sponsors/team_picnic.png)
 ![bol.com](/img/sponsors/team_bol.jpg)
 ![CWI](/img/sponsors/team_cwi.png)
+![OrangeMason](/team_OrangeMason.png)
 ![Ortec](/img/sponsors/team_ortec.png)
