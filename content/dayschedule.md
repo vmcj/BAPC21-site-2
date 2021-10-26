@@ -16,4 +16,4 @@ weight: 1
 | TBA   | TBA   | Coaches meeting                        |
 | 18:00 |       | Drinks                                 |
 | 18:00 | 19:30 | Jury solutions                         |
-| 19:30 |       | Award ceremony                         |
+| 19:30 | 21:00 | Award ceremony                         |
