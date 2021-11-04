@@ -10,6 +10,7 @@ weight: 13
 ![IMC](/img/sponsors/team_imc.png)
 ![Picnic](/img/sponsors/team_picnic.png)
 ![bol.com](/img/sponsors/team_bol.jpg)
+![University of Luxembourg](/team_lux.svg)
 ![CWI](/img/sponsors/team_cwi.png)
 ![OrangeMason](/team_OrangeMason.png)
 ![Ortec](/img/sponsors/team_ortec.png)
